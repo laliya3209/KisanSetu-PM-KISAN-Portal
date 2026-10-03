@@ -16,64 +16,181 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>KisanSetu — PM-KISAN Services</title>
 <meta name="description" content="Independent navigation portal for PM-KISAN services.">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
 <header class="topbar">
-  <a class="logo" href="#"><span class="logo-icon">✦</span><span>Kisan<span>Setu</span></span></a>
+  <a class="logo" href="#">
+    <span class="logo-icon">✦</span>
+    <span>Kisan<span>Setu</span></span>
+  </a>
+
   <div class="top-actions">
     <div class="languages">
-      <button class="lang active" data-lang="en">English</button><button class="lang" data-lang="hi">हिंदी</button>
+      <button class="lang active" data-lang="en">English</button>
+      <button class="lang" data-lang="hi">हिंदी</button>
     </div>
-    <a class="official" href="https://pmkisan.gov.in/" target="_blank" rel="noopener">Official PM-KISAN ↗</a>
+
+    <a class="official" href="https://pmkisan.gov.in/" target="_blank" rel="noopener">
+      Official PM-KISAN ↗
+    </a>
   </div>
 </header>
 
 <main>
+
 <section class="hero">
-  <div class="pill"><span></span> Independent service navigation</div>
-  <h1>What do you want to do?</h1>
- <p>These are the service options currently listed in the official PM-KISAN Farmers Corner.</p>
-  <div class="hero-actions">
-    <a href="#services" class="primary">View all PM-KISAN services <span>↓</span></a>
-    <a href="https://pmkisan.gov.in/" class="secondary" target="_blank" rel="noopener">Open official website ↗</a>
+
+  <div class="pill">
+    <span></span> Independent service navigation
   </div>
+
+  <h1>What do you want to do?</h1>
+
+  <p>
+    Choose a service below. For government services, you will continue to the official PM-KISAN website.
+  </p>
+
+  <div class="hero-actions">
+
+    <a href="#services" class="primary">
+      View all PM-KISAN services <span>↓</span>
+    </a>
+
+    <a href="https://pmkisan.gov.in/" class="secondary" target="_blank" rel="noopener">
+      Open official website ↗
+    </a>
+
+  </div>
+
 </section>
+
 
 <section id="services" class="services-section">
+
   <div class="section-head">
-    <div><div class="pill">Farmers Corner</div><h2>All PM-KISAN services</h2><p>These are the service options currently listed in the official PM-KISAN Farmers Corner. cite marker handled in page footer, not user UI</p></div>
-    <div class="search"><span>⌕</span><input id="search" placeholder="Search a service..."></div>
+
+    <div>
+
+      <div class="pill">Farmers Corner</div>
+
+      <h2>All PM-KISAN services</h2>
+
+      <p>
+        These are the service options currently listed in the official PM-KISAN Farmers Corner.
+      </p>
+
+    </div>
+
+    <div class="search">
+      <span>⌕</span>
+      <input id="search" placeholder="Search a service...">
+    </div>
+
   </div>
+
+
   <div class="service-grid" id="grid"></div>
-  <div class="empty" id="empty" hidden>No service found. Try “status”, “refund”, “mobile”, or “registration”.</div>
-  <div class="source-note">Service names are based on the current official PM-KISAN Farmers Corner. Always check that the destination domain is <strong>pmkisan.gov.in</strong> before entering personal information.</div>
+
+
+  <div class="empty" id="empty" hidden>
+    No service found. Try “status”, “refund”, “mobile”, or “registration”.
+  </div>
+
+
+  <div class="source-note">
+    Service names are based on the current official PM-KISAN Farmers Corner.
+    Always check that the destination domain is
+    <strong>pmkisan.gov.in</strong>
+    before entering personal information.
+  </div>
+
 </section>
+
 
 <section class="help">
-  <div><div class="pill">Simple help</div><h2>Not sure what to choose?</h2><p>Start with the problem you are trying to solve.</p></div>
-  <div class="examples">
-    <div><strong>Money/payment not received</strong><span>→ Know Your Status</span></div>
-    <div><strong>Want to apply for PM-KISAN</strong><span>→ New Farmer Registration</span></div>
-    <div><strong>Mobile number needs changing</strong><span>→ Update Mobile Number</span></div>
-    <div><strong>Need to contact an officer</strong><span>→ Search your Point of Contact</span></div>
+
+  <div>
+
+    <div class="pill">Simple help</div>
+
+    <h2>Not sure what to choose?</h2>
+
+    <p>Start with the problem you are trying to solve.</p>
+
   </div>
+
+
+  <div class="examples">
+
+    <div>
+      <strong>Money/payment not received</strong>
+      <span>→ Know Your Status</span>
+    </div>
+
+    <div>
+      <strong>Want to apply for PM-KISAN</strong>
+      <span>→ New Farmer Registration</span>
+    </div>
+
+    <div>
+      <strong>Mobile number needs changing</strong>
+      <span>→ Update Mobile Number</span>
+    </div>
+
+    <div>
+      <strong>Need to contact an officer</strong>
+      <span>→ Search your Point of Contact</span>
+    </div>
+
+  </div>
+
 </section>
+
 
 <section class="security">
+
   <div class="shield">🔒</div>
-  <div><strong>Stay safe online</strong><p>KisanSetu does not collect Aadhaar numbers, OTPs, bank details or passwords. Enter sensitive information only after reaching the official PM-KISAN government website.</p></div>
+
+  <div>
+
+    <strong>Stay safe online</strong>
+
+    <p>
+      KisanSetu does not collect Aadhaar numbers, OTPs, bank details or passwords.
+      Enter sensitive information only after reaching the official PM-KISAN government website.
+    </p>
+
+  </div>
+
 </section>
+
 </main>
 
+
 <footer>
+
   <strong>KisanSetu</strong>
-  <span>Independent PM-KISAN service navigation portal — not affiliated with or endorsed by the Government of India.</span>
-  <a href="https://pmkisan.gov.in/" target="_blank" rel="noopener">pmkisan.gov.in ↗</a>
+
+  <span>
+    Independent PM-KISAN service navigation portal — not affiliated with or endorsed by the Government of India.
+  </span>
+
+  <a href="https://pmkisan.gov.in/" target="_blank" rel="noopener">
+    pmkisan.gov.in ↗
+  </a>
+
 </footer>
+
+
 <script src="script.js"></script>
+
 </body>
 </html>
